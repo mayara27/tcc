@@ -8041,3 +8041,298 @@ Processing by GuidesController#index as HTML
 Completed 200 OK in 13ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6428)
 
 
+Started GET "/" for ::1 at 2021-03-09 20:07:53 -0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1592)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1662)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms | Allocations: 3964)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+   <body class="home">
+      <div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+               <a href="/">
+                  <%= image_tag "logo-turismo", style: "width:110px;", class:'img-home' %>
+               </a>
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li class=> <%= link_to "Home", root_path %> </li>
+                     <li> <%= link_to "Guias", root_path %> </li>
+                     <% if !user_signed_in? do %> 
+                        <li> <%= link_to "Login", new_user_session_path %> </li>
+                     <% end %>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         <div class="content">
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>
+):
+1:    
+2:    <!DOCTYPE html>
+3:    <html lang="pt-br">
+4:       <head>
+5:          <meta charset="UTF-8">
+6:          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+7:          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+8:        </head>
+9:       <body class="home">
+10:          <div class="wrapper">
+11:             <header>
+12:                <nav>
+13:                   <div class="menu-icon">
+14:                      <i class="fa fa-bars fa-2x"></i>
+15:                   </div>
+16:                   <div class="logo">
+17:                   <a href="/">
+18:                      <%= image_tag "logo-turismo", style: "width:110px;", class:'img-home' %>
+19:                   </a>
+20:                   </div>
+21:                   <div class="menu">
+22:                      <ul>
+23:                         <li class=> <%= link_to "Home", root_path %> </li>
+24:                         <li> <%= link_to "Guias", root_path %> </li>
+25:                         <% if !user_signed_in? do %> 
+26:                            <li> <%= link_to "Login", new_user_session_path %> </li>
+27:                         <% end %>
+28:                      </ul>
+29:                   </div>
+30:                </nav>
+31:             </header>
+32:             <div class="content">
+33:                <p>
+34:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+35:                </p>
+36:                <p>
+37:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+38:                </p>
+39:                <p>
+40:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+41:                </p>
+42:                <p>
+43:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+44:                </p>
+45:                <p>
+46:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+47:                </p>
+48:             </div>
+49:          </div>
+50:       </body>
+51:    </html>
+  
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/users/sign_in" for ::1 at 2021-03-09 20:08:03 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (16.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 94ms (ActiveRecord: 17.6ms | Allocations: 8477)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 20:08:03 -0300
+Processing by GuidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 92.3ms | Allocations: 12108)
+Completed 200 OK in 101ms (Views: 94.2ms | ActiveRecord: 0.0ms | Allocations: 13199)
+
+
+Started GET "/" for ::1 at 2021-03-09 20:08:29 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 1287)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 2237)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+   <body class="home">
+      <div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+               <a href="/">
+                  <%= image_tag "logo-turismo", style: "width:110px;", class:'img-home' %>
+               </a>
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li class=> <%= link_to "Home", root_path %> </li>
+                     <li> <%= link_to "Guias", root_path %> </li>
+                     <% if !user_signed_in? do %> 
+                        <li> <%= link_to "Login", new_user_session_path %> </li>
+                     <% end %>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         <div class="content">
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+         </div>
+      </div>
+   </body>
+
+):
+1:    
+2:    <!DOCTYPE html>
+3:    <html lang="pt-br">
+4:       <head>
+5:          <meta charset="UTF-8">
+6:          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+7:          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+8:        </head>
+9:       <body class="home">
+10:          <div class="wrapper">
+11:             <header>
+12:                <nav>
+13:                   <div class="menu-icon">
+14:                      <i class="fa fa-bars fa-2x"></i>
+15:                   </div>
+16:                   <div class="logo">
+17:                   <a href="/">
+18:                      <%= image_tag "logo-turismo", style: "width:110px;", class:'img-home' %>
+19:                   </a>
+20:                   </div>
+21:                   <div class="menu">
+22:                      <ul>
+23:                         <li class=> <%= link_to "Home", root_path %> </li>
+24:                         <li> <%= link_to "Guias", root_path %> </li>
+25:                         <% if !user_signed_in? do %> 
+26:                            <li> <%= link_to "Login", new_user_session_path %> </li>
+27:                         <% end %>
+28:                      </ul>
+29:                   </div>
+30:                </nav>
+31:             </header>
+32:             <div class="content">
+33:                <p>
+34:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+35:                </p>
+36:                <p>
+37:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+38:                </p>
+39:                <p>
+40:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+41:                </p>
+42:                <p>
+43:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+44:                </p>
+45:                <p>
+46:                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+47:                </p>
+48:             </div>
+49:          </div>
+50:       </body>
+  
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/index.html.erb:53: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2021-03-09 20:09:00 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1049)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 6465)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 7431)
+
+
+Started GET "/" for ::1 at 2021-03-09 20:09:10 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:17
+  Rendered home/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 7311)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.1ms | Allocations: 8273)
+
+
+Started GET "/" for ::1 at 2021-03-09 20:23:17 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/home/index.html.erb:17
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:17
+  Rendered home/index.html.erb within layouts/application (Duration: 18.3ms | Allocations: 6048)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 11210)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.8ms | Allocations: 12212)
+
+
