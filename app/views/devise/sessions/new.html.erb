@@ -1,20 +1,45 @@
-<h2>Log in</h2>
+  <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+    <div class="container mt-5">
+      <div class="card login-card">
+        <div class="row no-gutters">
+          <div class="col-md-5">
+            <%= image_tag "trilha-login.jpg", class:"login-card-img" %>
+          </div>
+          <div class="col-md-6 ml-5">
+            <div class="card-body">
+              <div class="brand-wrapper">
+                <%= image_tag "logo-turismo-escuro.png" %>
+              </div>
+              <p class="login-card-description">Entrar</p>
+              <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+                <%= f.error_notification %>
+                  <div class="form-group">
+                    <%= f.label :email, 'Email:' %>
+                    <%= f.text_field :email, required: false, autofocus: true, input_html: { autocomplete: "email" }, class:"form-control" %>
+                  </div>
 
-<%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="form-inputs">
-    <%= f.input :email,
-                required: false,
-                autofocus: true,
-                input_html: { autocomplete: "email" } %>
-    <%= f.input :password,
-                required: false,
-                input_html: { autocomplete: "current-password" } %>
-    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
-  </div>
+                  <div class="form-group mb-4">
+                     <%= f.label :password, 'Senha:' %>
+                    <%= f.password_field :password, required: false, input_html: { autocomplete: "current-password" }, class:"form-control" %>
+                  </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, "Log in" %>
-  </div>
-<% end %>
+                  <div class="mb-3">
+                    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+                  </div>
 
-<%= render "devise/shared/links" %>
+                   <div class="form-actions">
+                    <%= f.button :submit, "Entrar", class:"btn btn-block login-btn mb-4" %>
+                  </div>
+
+                <% end %>
+                <%= render "devise/shared/links" %>
+                <nav class="login-card-footer-nav">
+                  <a href="#!">Terms of use.</a>
+                  <a href="#!">Privacy policy</a>
+                </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>

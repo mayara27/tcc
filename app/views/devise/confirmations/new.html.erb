@@ -18,3 +18,42 @@
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+  <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+    <div class="container">
+      <div class="card login-card">
+        <div class="row no-gutters">
+          <div class="col-md-5">
+            <%= image_tag "trilha-login.jpg", class:"login-card-img" %>
+          </div>
+          <div class="col-md-6 ml-5">
+            <div class="card-body">
+              <div class="brand-wrapper">
+                <%= image_tag "logo-turismo-escuro.png" %>
+              </div>
+              <p class="login-card-description">Cadastrar-se</p>
+              <%= simple_form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
+                <%= f.error_notification %>       
+                <%= f.full_error :confirmation_token %>
+
+                  <div class="form-group">
+                    <%= f.label :email, 'Email:' %>
+                    <%= f.text_field :email, required: true, autofocus: true, value: (resource.pending_reconfirmation? ? resource.unconfirmed_email : resource.email),
+                                input_html: { autocomplete: "email" }, class:'form-control' %>
+                  </div>
+
+                  <div class="form-actions">
+                    <%= f.button :submit, "Resend confirmation instructions" %>
+                  </div>
+                <% end %>
+                <%= render "devise/shared/links" %>
+                <nav class="login-card-footer-nav">
+                  <a href="#!">Terms of use.</a>
+                  <a href="#!">Privacy policy</a>
+                </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>

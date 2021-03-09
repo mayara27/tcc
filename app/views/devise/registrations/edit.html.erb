@@ -1,4 +1,65 @@
 <h2>Edit <%= resource_name.to_s.humanize %></h2>
+  <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+    <div class="container">
+      <div class="card login-card">
+        <div class="row no-gutters">
+          <div class="col-md-5">
+            <%= image_tag "trilha-login.jpg", class:"login-card-img" %>
+          </div>
+          <div class="col-md-6 ml-5">
+            <div class="card-body">
+              <div class="brand-wrapper">
+                <%= image_tag "logo-turismo-escuro.png" %>
+              </div>
+              <p class="login-card-description">Cadastrar-se</p>
+              <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+                <%= f.error_notification %>
+                  <div class="form-group">
+                    <%= f.label :email, 'Email:' %>
+                    <%= f.text_field :email, required: true, autofocus: true, input_html: { autocomplete: "email" }, class:"form-control" %>
+                  </div>
+                   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+                    <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
+                  <% end %>
+                  <div class="form-group mb-4">
+                     <%= f.label :password, 'Senha:' %>
+                    <%= f.password_field :password, hint: "leave it blank if you don't want to change it", class:"form-control" %>
+                  </div>
+                   <div class="form-group mb-4">
+                     <%= f.label :password_confirmation, 'Confirme sua senha:' %>
+                    <%= f.password_field :password_confirmation, class:"form-control" %>
+                  </div>
+
+                  <div class="form-group mb-4">
+                     <%= f.label :current_password, 'Senha atual:' %>
+                    <%= f.password_field :current_password, hint: "we need your current password to confirm your changes", required: true,
+                    input_html: { autocomplete: "current-password" }, class:'form-control' %>
+                  </div>
+
+                  <div class="field">
+                    <%= f.label :role, 'Você é: ' %>
+                    <%= f.select :role, [["Guia", 'guide'], ["Trilheiro", 'client']], {}, {class: "form-control"} %>
+                  </div>
+                  
+                  <div class="form-actions">
+                        <%= f.button :submit, "Editar", class:"btn btn-block login-btn mb-4" %>
+                  </div>
+                <% end %>
+                <h3>Cancelar conta?</h3>
+                <p>Certeza? <%= link_to "Cancelar minha conta", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+                <%= link_to "Voltar", :back %>
+
+                <nav class="login-card-footer-nav">
+                  <a href="#!">Terms of use.</a>
+                  <a href="#!">Privacy policy</a>
+                </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
 
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= f.error_notification %>
@@ -6,9 +67,7 @@
   <div class="form-inputs">
     <%= f.input :email, required: true, autofocus: true %>
 
-    <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-      <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
-    <% end %>
+   
 
     <%= f.input :password,
                 hint: "leave it blank if you don't want to change it",
