@@ -17,15 +17,9 @@
                 input_html: { autocomplete: "new-password" } %>
 
      <div class="field">
-    <%= f.label :role, 'Você é:' %><br />
-    <%= f.radio_button :role, true %>
-    <%= f.label :role, "Trilheiro", :value => 0  %>
-    <br>
-    <%= f.radio_button :role, true %>
-    <%= f.label :autolyse, "Guia de Turismo", :value => 1 %>
-
-  </div>
-
+       <%= f.label :role, 'Você é: ' %>
+       <%= f.select :role, [["Guia", 'guide'], ["Trilheiro", 'client']] %>
+    </div>
   </div>
 
   <div class="form-actions">
