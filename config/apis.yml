@@ -1,0 +1,7 @@
+production:
+
+development:
+  plan_api: http://localhost:2000/api/v1
+
+test:
+  plan_api: http://localhost:4000/api/v1
