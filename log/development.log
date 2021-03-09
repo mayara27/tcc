@@ -6069,3 +6069,1975 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 7955)
 
 
+Started GET "/" for ::1 at 2021-03-09 18:02:40 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1052)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6464)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 7427)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:02:45 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms | Allocations: 1382)
+
+
+Started GET "/" for ::1 at 2021-03-09 18:02:45 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1494)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 6692)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 7069)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:02:55 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 22ms (ActiveRecord: 0.1ms | Allocations: 1886)
+
+
+Started GET "/" for ::1 at 2021-03-09 18:02:55 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6050)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6426)
+
+
+Started GET "/users/sign_out" for ::1 at 2021-03-09 18:02:59 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms | Allocations: 1658)
+
+
+Started GET "/" for ::1 at 2021-03-09 18:02:59 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 851)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 6053)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 6414)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:03:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 537)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 22.0ms | Allocations: 6281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 11401)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 12694)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-03-09 18:03:12 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 110)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 23.0ms | Allocations: 3222)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 8448)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.0ms | Allocations: 9514)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:03:21 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 155)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 24.1ms | Allocations: 4756)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 10471)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 11036)
+
+
+Started GET "/users/password/new" for ::1 at 2021-03-09 18:03:25 -0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 154)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 2303)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 7471)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 8699)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:32:58 -0300
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 725)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/application_controller.rb:10:in `after_sign_in_path_for'
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:33:17 -0300
+  
+SyntaxError (/home/mayara/Área de Trabalho/workspace/tcc/app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+...action :after_sign_in_path_for(current_user)
+...                              ^
+):
+  
+app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:33:43 -0300
+  
+SyntaxError (/home/mayara/Área de Trabalho/workspace/tcc/app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+...action :after_sign_in_path_for(current_user)
+...                              ^
+):
+  
+app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+app/controllers/application_controller.rb:3: syntax error, unexpected '(', expecting `end'
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:34:39 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.4ms | Allocations: 5051)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 10209)
+Completed 200 OK in 37ms (Views: 21.4ms | ActiveRecord: 0.9ms | Allocations: 15646)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 18:35:17 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 4892)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 10069)
+Completed 200 OK in 34ms (Views: 21.2ms | ActiveRecord: 1.4ms | Allocations: 15788)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-03-09 18:35:31 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"may@teste.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "may@teste.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 341ms (ActiveRecord: 0.4ms | Allocations: 4819)
+
+
+  
+NoMethodError (undefined method `user_path' for #<Devise::SessionsController:0x0000000000e1a0>):
+  
+app/controllers/application_controller.rb:10:in `after_sign_in_path_for'
+Started POST "/users/sign_in" for ::1 at 2021-03-09 18:35:47 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"may@teste.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "may@teste.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 357ms (ActiveRecord: 1.4ms | Allocations: 10083)
+
+
+  
+NoMethodError (undefined method `new_user_path' for #<Devise::SessionsController:0x0000000000f0a0>
+Did you mean?  new_user_session_path):
+  
+app/controllers/application_controller.rb:10:in `after_sign_in_path_for'
+Started POST "/users/sign_in" for ::1 at 2021-03-09 18:40:16 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20210309213831_create_guides.rb
+
+
+):
+  
+activerecord (6.1.2.1) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.2.1) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.2.1) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activesupport (6.1.2.1) lib/active_support/evented_file_update_checker.rb:65:in `execute_if_updated'
+activerecord (6.1.2.1) lib/active_record/migration.rb:597:in `block in call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.2.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/users/sign_in" for ::1 at 2021-03-09 18:50:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20210309213831_create_guides.rb
+
+
+):
+  
+activerecord (6.1.2.1) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.2.1) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.2.1) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.2.1) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.2.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateGuides (20210309213831)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "guides" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309213831"]]
+  [1m[36mTRANSACTION (9.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to Guides (20210309215811)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309215811"]]
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to Guides (20210309215811)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.5ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20210309215811"]]
+  [1m[36mTRANSACTION (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateGuides (20210309213831)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "guides"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20210309213831"]]
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateGuides (20210309213831)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "guides" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "cpf" varchar, "cadastur" varchar, "especialties" varchar, "modalities" varchar, "email_contact" varchar, "telefone_contact" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309213831"]]
+  [1m[36mTRANSACTION (8.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddUserToGuides (20210309221130)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aguides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aguides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at" FROM "guides"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "guides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "guides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "user_id" integer NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "guides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at" FROM "aguides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "aguides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE INDEX "index_guides_on_user_id" ON "guides" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aguides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "user_id" integer NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "tindex_aguides_on_user_id" ON "aguides" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aguides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id" FROM "guides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "guides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "guides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "user_id" integer NOT NULL, CONSTRAINT "fk_rails_12ec69820f"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "index_guides_on_user_id" ON "guides" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "guides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id" FROM "aguides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "aguides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309221130"]]
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RemoveUserIdFromGuides (20210309221406)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aguides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "user_id" integer NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE INDEX "tindex_aguides_on_user_id" ON "aguides" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aguides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id" FROM "guides"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "guides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "guides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "guides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at" FROM "aguides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "aguides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309221406"]]
+  [1m[36mTRANSACTION (11.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddUserToGuides (20210309221512)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aguides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aguides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at" FROM "guides"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "guides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "guides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "user_id" integer NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "guides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at" FROM "aguides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "aguides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE INDEX "index_guides_on_user_id" ON "guides" ("user_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aguides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "user_id" integer NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "tindex_aguides_on_user_id" ON "aguides" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aguides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id" FROM "guides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "guides"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "guides" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "cpf" varchar DEFAULT NULL, "cadastur" varchar DEFAULT NULL, "especialties" varchar DEFAULT NULL, "modalities" varchar DEFAULT NULL, "email_contact" varchar DEFAULT NULL, "telefone_contact" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "user_id" integer NOT NULL, CONSTRAINT "fk_rails_12ec69820f"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "index_guides_on_user_id" ON "guides" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "guides" ("id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id")
+                     SELECT "id","name","cpf","cadastur","especialties","modalities","email_contact","telefone_contact","created_at","updated_at","user_id" FROM "aguides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aguides"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309221512"]]
+  [1m[36mTRANSACTION (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/users/sign_in" for ::1 at 2021-03-09 19:16:22 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"may@teste.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "may@teste.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Completed 302 Found in 342ms (ActiveRecord: 1.3ms | Allocations: 7136)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:22 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms | Allocations: 1409)
+
+
+Started POST "/rails/actions" for ::1 at 2021-03-09 19:16:24 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:24 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.3ms | Allocations: 1435)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:24 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 252)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-03-09 19:16:28 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"may@teste.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 26ms (ActiveRecord: 1.6ms | Allocations: 6590)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:28 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 529)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:16:33 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 861)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 6030)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 6508)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:35 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.5ms | Allocations: 1408)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:35 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 261)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:35 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms | Allocations: 1409)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:35 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 253)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:38 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 18ms (ActiveRecord: 0.5ms | Allocations: 1415)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:38 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 260)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:38 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.2ms | Allocations: 1409)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:38 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 253)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:16:39 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 6050)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 6419)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:40 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 32ms (ActiveRecord: 0.6ms | Allocations: 1407)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:40 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 261)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:40 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms | Allocations: 1409)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:40 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 253)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:43 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 253)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:47 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.4ms | Allocations: 1415)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:47 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 261)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:47 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.8ms | Allocations: 1409)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:16:47 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 253)
+
+
+Started GET "/users/sign_out" for ::1 at 2021-03-09 19:16:54 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 44ms (ActiveRecord: 0.5ms | Allocations: 1826)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:16:54 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 852)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6054)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 6415)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:16:55 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 25.0ms | Allocations: 4896)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 10585)
+Completed 200 OK in 42ms (Views: 39.7ms | ActiveRecord: 0.0ms | Allocations: 11263)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-03-09 19:17:03 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"may@teste.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "may@teste.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Completed 302 Found in 336ms (ActiveRecord: 0.4ms | Allocations: 2268)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:17:03 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 252)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:17:13 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.4ms | Allocations: 1408)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:17:13 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms | Allocations: 251)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:17:18 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 851)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 6031)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 6394)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:17:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.1ms | Allocations: 1407)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:17:19 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 261)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:17:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides.12
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 1409)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:17:19 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 253)
+
+
+Started GET "/guides.12" for ::1 at 2021-03-09 19:17:38 -0300
+Processing by GuidesController#index as */*
+No template found for GuidesController#index, rendering head :no_content
+Completed 204 No Content in 4ms (Allocations: 919)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:17:39 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 27ms (ActiveRecord: 3.5ms | Allocations: 6559)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:17:39 -0300
+Processing by GuidesController#index as HTML
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 947)
+
+
+  
+ActionController::MissingExactTemplate (GuidesController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.2.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:18:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms | Allocations: 1387)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:18:56 -0300
+Processing by GuidesController#index as HTML
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms | Allocations: 1432)
+
+
+  
+ActionController::MissingExactTemplate (GuidesController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.2.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides" for ::1 at 2021-03-09 19:19:04 -0300
+Processing by GuidesController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 626)
+
+
+  
+ActionController::MissingExactTemplate (GuidesController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.2.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides" for ::1 at 2021-03-09 19:19:23 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GuidesController#index as HTML
+Completed 406 Not Acceptable in 10ms (ActiveRecord: 0.0ms | Allocations: 2413)
+
+
+  
+ActionController::MissingExactTemplate (GuidesController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.2.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides/index" for ::1 at 2021-03-09 19:19:29 -0300
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for GuidesController
+Did you mean?  configure_permitted_parameters
+               index):
+  
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides/index" for ::1 at 2021-03-09 19:19:53 -0300
+Processing by GuidesController#show as HTML
+  Parameters: {"id"=>"index"}
+Completed 406 Not Acceptable in 5ms (Allocations: 1931)
+
+
+  
+ActionController::MissingExactTemplate (GuidesController#show is missing a template for request formats: text/html):
+  
+actionpack (6.1.2.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides/index" for ::1 at 2021-03-09 19:20:30 -0300
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for GuidesController
+Did you mean?  configure_permitted_parameters
+               index):
+  
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides/" for ::1 at 2021-03-09 19:20:34 -0300
+Processing by GuidesController#index as HTML
+Completed 406 Not Acceptable in 4ms (Allocations: 1152)
+
+
+  
+ActionController::MissingExactTemplate (GuidesController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.2.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides/" for ::1 at 2021-03-09 19:20:59 -0300
+Processing by GuidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 12151)
+Completed 200 OK in 41ms (Views: 38.3ms | Allocations: 13191)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:21:06 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 6263)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 7019)
+
+
+Started GET "/users/sign_out" for ::1 at 2021-03-09 19:21:14 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 28ms (ActiveRecord: 1.5ms | Allocations: 10387)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:21:14 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 851)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6056)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 6420)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:21:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 625)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 49.4ms | Allocations: 14083)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.8ms | Allocations: 19287)
+Completed 200 OK in 84ms (Views: 67.5ms | ActiveRecord: 0.0ms | Allocations: 20622)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-03-09 19:21:19 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 140)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 2803)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 8584)
+Completed 200 OK in 44ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 9754)
+
+
+Started POST "/users" for ::1 at 2021-03-09 19:21:36 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"trilheiro@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"client"}, "commit"=>"Cadastrar"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "trilheiro@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "role") VALUES (?, ?, ?, ?, ?)[0m  [["email", "trilheiro@gmail.com"], ["encrypted_password", "$2a$12$wOlXs5tNMAZxDZJIdBpmBOnE0n9VKBq9IlYWZw.EXhoQAdmfpBctq"], ["created_at", "2021-03-09 22:21:36.558087"], ["updated_at", "2021-03-09 22:21:36.558087"], ["role", 0]]
+  [1m[36mTRANSACTION (8.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to 
+Completed 500 Internal Server Error in 360ms (ActiveRecord: 9.4ms | Allocations: 11266)
+
+
+  
+NoMethodError (undefined method `user_url' for #<Devise::RegistrationsController:0x0000000000c148>):
+  
+actionpack (6.1.2.1) lib/action_dispatch/routing/polymorphic_routes.rb:231:in `public_send'
+actionpack (6.1.2.1) lib/action_dispatch/routing/polymorphic_routes.rb:231:in `polymorphic_method'
+actionpack (6.1.2.1) lib/action_dispatch/routing/polymorphic_routes.rb:116:in `polymorphic_url'
+actionpack (6.1.2.1) lib/action_dispatch/routing/url_for.rb:188:in `full_url_for'
+actionpack (6.1.2.1) lib/action_dispatch/routing/url_for.rb:171:in `url_for'
+actionpack (6.1.2.1) lib/action_controller/metal/redirecting.rb:110:in `_compute_redirect_to_location'
+actionpack (6.1.2.1) lib/action_controller/metal/redirecting.rb:63:in `redirect_to'
+actionpack (6.1.2.1) lib/action_controller/metal/flash.rb:58:in `redirect_to'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:66:in `block in redirect_to'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:65:in `redirect_to'
+turbolinks (5.2.1) lib/turbolinks/redirection.rb:12:in `redirect_to'
+responders (3.0.1) lib/action_controller/responder.rb:147:in `redirect_to'
+responders (3.0.1) lib/action_controller/responder.rb:207:in `navigation_behavior'
+responders (3.0.1) lib/action_controller/responder.rb:174:in `rescue in to_html'
+responders (3.0.1) lib/action_controller/responder.rb:171:in `to_html'
+responders (3.0.1) lib/action_controller/responder.rb:165:in `respond'
+responders (3.0.1) lib/action_controller/responder.rb:158:in `call'
+responders (3.0.1) lib/action_controller/respond_with.rb:213:in `respond_with'
+devise (4.7.3) app/controllers/devise/registrations_controller.rb:25:in `create'
+actionpack (6.1.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.2.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.2.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.2.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (6.1.2.1) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started POST "/users" for ::1 at 2021-03-09 19:22:10 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"trilheiro@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"client"}, "commit"=>"Cadastrar"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "trilheiro@gmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2978)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 8143)
+Completed 200 OK in 369ms (Views: 17.2ms | ActiveRecord: 2.0ms | Allocations: 18381)
+
+
+Started POST "/users" for ::1 at 2021-03-09 19:22:19 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"trilheiro@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"client"}, "commit"=>"Cadastrar"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "trilheiro@gmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2806)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 7946)
+Completed 200 OK in 356ms (Views: 13.9ms | ActiveRecord: 0.4ms | Allocations: 12688)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:22:25 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 5997)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 6512)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:22:26 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 37.5ms | Allocations: 5368)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.8ms | Allocations: 10493)
+Completed 200 OK in 67ms (Views: 63.0ms | ActiveRecord: 0.0ms | Allocations: 11279)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:22:29 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 851)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 6044)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 6399)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:22:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 155)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 44.1ms | Allocations: 5220)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.9ms | Allocations: 10477)
+Completed 200 OK in 81ms (Views: 77.2ms | ActiveRecord: 0.0ms | Allocations: 11040)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-03-09 19:22:44 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"trilheiro@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "trilheiro@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 358ms (ActiveRecord: 0.3ms | Allocations: 4467)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:22:44 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 852)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6055)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 6419)
+
+
+Started GET "/guides/index" for ::1 at 2021-03-09 19:25:02 -0300
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for GuidesController
+Did you mean?  configure_permitted_parameters
+               index):
+  
+actionpack (6.1.2.1) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.2.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.2.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.2.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.2.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.2.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.2.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.2.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.0) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.2.1) lib/rails/engine.rb:539:in `call'
+puma (5.1.1) lib/puma/configuration.rb:246:in `call'
+puma (5.1.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.1.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.1.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.1.1) lib/puma/server.rb:431:in `process_client'
+puma (5.1.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/guides" for ::1 at 2021-03-09 19:25:07 -0300
+Processing by GuidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 5329)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 5801)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:28:21 -0300
+Processing by GuidesController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/guides_controller.rb:9:in `must_be_guide'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/guides_controller.rb:9:in `must_be_guide'
+Redirected to http://localhost:3000/
+Filter chain halted as :must_be_guide rendered or redirected
+Completed 302 Found in 21ms (ActiveRecord: 0.6ms | Allocations: 5794)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:28:21 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 859)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 6020)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6538)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:28:24 -0300
+Processing by GuidesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/guides_controller.rb:9:in `must_be_guide'
+Redirected to http://localhost:3000/
+Filter chain halted as :must_be_guide rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.1ms | Allocations: 987)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:28:24 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 6024)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 6381)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:28:27 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 19ms (ActiveRecord: 0.5ms | Allocations: 1522)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:28:27 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 851)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 6050)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.0ms | Allocations: 6429)
+
+
+Started GET "/users/sign_out" for ::1 at 2021-03-09 19:28:31 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms | Allocations: 1785)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:28:31 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 852)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 6032)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 6393)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-03-09 19:28:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 36.0ms | Allocations: 4899)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 69.7ms | Allocations: 10580)
+Completed 200 OK in 79ms (Views: 74.6ms | ActiveRecord: 0.0ms | Allocations: 11257)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-03-09 19:28:40 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"may@teste.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "may@teste.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/guides
+Completed 302 Found in 339ms (ActiveRecord: 0.4ms | Allocations: 2243)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:28:40 -0300
+Processing by GuidesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/guides_controller.rb:9:in `must_be_guide'
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 5312)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.1ms | Allocations: 6555)
+
+
+Started GET "/" for ::1 at 2021-03-09 19:28:45 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6042)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 6399)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:28:48 -0300
+Processing by GuidesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/guides_controller.rb:9:in `must_be_guide'
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 5309)
+Completed 200 OK in 14ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 6436)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:33:19 -0300
+Processing by GuidesController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/guides_controller.rb:9:in `must_be_guide'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/guides_controller.rb:9:in `must_be_guide'
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 5265)
+Completed 200 OK in 26ms (Views: 7.1ms | ActiveRecord: 1.9ms | Allocations: 11938)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:35:08 -0300
+  
+SyntaxError (/home/mayara/Área de Trabalho/workspace/tcc/app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+...tion :must_be_guide, expect %i[index]
+...                            ^~~
+):
+  
+app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+Started GET "/guides" for ::1 at 2021-03-09 19:35:27 -0300
+  
+SyntaxError (/home/mayara/Área de Trabalho/workspace/tcc/app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+...ction :must_be_guide, exept %i[index]
+...                            ^~~
+):
+  
+app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+app/controllers/guides_controller.rb:2: syntax error, unexpected verbatim symbol list, expecting `do' or '{' or '('
+Started GET "/guides" for ::1 at 2021-03-09 19:35:53 -0300
+Processing by GuidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 5288)
+Completed 200 OK in 16ms (Views: 11.8ms | Allocations: 6456)
+
+
+Started GET "/guides" for ::1 at 2021-03-09 19:36:02 -0300
+Processing by GuidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 5265)
+Completed 200 OK in 11ms (Views: 9.0ms | Allocations: 6428)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddCityToGuides (20210309224015)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "guides" ADD "city" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309224015"]]
+  [1m[36mTRANSACTION (8.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddStateToGuides (20210309224036)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "guides" ADD "state" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210309224036"]]
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/guides" for ::1 at 2021-03-09 19:41:09 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GuidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guides/index.html.erb within layouts/application
+  Rendered guides/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 5265)
+Completed 200 OK in 13ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6428)
+
+
