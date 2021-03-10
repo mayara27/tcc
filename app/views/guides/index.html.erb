@@ -14,18 +14,31 @@
             <% end %>
         </ul>
     </div>
-   <body>
     <br>
     <br>
     <br>
     <br>
-    <div class="container mt-2">
-    <%= link_to 'Criar meu perfil', new_guide_path, class: 'ls-btn-lg ls-btn-primary'%>
-        <div class="row">
-            <% Guide.all.each do |guide| %>
-                <%= guide.name%>
-            <% end %>
+    <br>
+    <br>
+  <body>
+    <div class="container">
+    <div class="row">
+      <% Guide.all.each do |guide| %>
+        <div class="col col-md-6 col-lg-4">
+        <a href="/">
+          <div class="card">
+            <div class="card-image ">
+              <%= image_tag "lula-molusco", :height => '350px', :width =>'250px', class:'img-fluid' %>
+            </div>
+          <div class="infos">
+            <h2> <%= guide.name %>
+              <br>
+              <span class="city-state"> <%= guide.city %> - <%= guide.state %> </span>
+            </h2>
+          </div>
         </div>
+      </div>
+      </a>
+      <% end %>
     </div>
-
    </body>

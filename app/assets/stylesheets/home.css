@@ -44,6 +44,7 @@ header {
   width: 100%;
   line-height: 60px;
   background: #00750a;
+  z-index: 9;
 }
 
 nav {
