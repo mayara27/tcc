@@ -1,1 +1,31 @@
-<h2>OI</h2>
+       <div class="naveg">
+        <div class="logo">
+            <a href="/">
+                <%= image_tag "logo-turismo", style: "width:110px;", class:'img-home' %>
+            </a>
+        </div>
+        <ul>
+            <li> <%= link_to "Home", root_path %> </li>
+            <li> <%= link_to "Guias", guides_path %> </li>
+            <% if !user_signed_in? %> 
+            <li> <%= link_to "Login", new_user_session_path %> </li>
+            <%else%>
+            <li> <%= link_to "Sair", destroy_user_session_path %> </li>
+            <% end %>
+        </ul>
+    </div>
+   <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container mt-2">
+    <%= link_to 'Criar meu perfil', new_guide_path, class: 'ls-btn-lg ls-btn-primary'%>
+        <div class="row">
+            <% Guide.all.each do |guide| %>
+                <%= guide.name%>
+            <% end %>
+        </div>
+    </div>
+
+   </body>

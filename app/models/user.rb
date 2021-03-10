@@ -6,4 +6,5 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   enum role: { client: 0, guide: 1, admin: 2 }
+  has_one :guide, dependent: :destroy
 end

@@ -1,0 +1,63 @@
+<% if @guide.errors.any? %>
+  <ul>
+  <% @guide.errors.full_messages.each do |message| %>
+    <li><%= message %></li>
+  <% end %>
+  </ul>
+<% end %>
+
+<div  class="ls-form">  
+<br>
+
+<%= form_with model: @guide do |f| %>
+    <fieldset>
+    <div class="ls-label col-md-8">
+      <%= f.label :name, 'Nome', class: "ls-label-text" %>
+      <%= f.text_field :name, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+      <%= f.label :cpf, 'CPF', class: "ls-label-tex" %>
+      <%= f.text_field :cpf, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+      <%= f.label :cadastur, 'Cadastur', class: "ls-label-tex" %>
+      <%= f.text_field :cadastur, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+      <%= f.label :especialties, 'Especialidades', class: "ls-label-tex" %>
+      <%= f.text_field :especialties, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+      <%= f.label :modalities, 'Modalidades', class: "ls-label-tex" %>
+      <%= f.text_field :modalities, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+      <%= f.label :city, 'Cidade de Atuação', class: "ls-label-tex" %>
+      <%= f.text_field :city, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+      <%= f.label :state, 'Estado', class: "ls-label-tex" %>
+      <%= f.text_field :state, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+      <%= f.label :email_contact, 'Email para contato', class: "ls-label-tex" %>
+      <%= f.text_field :email_contact, class: "form-control" %>
+    </div>
+
+    <div class="ls-label col-md-8">
+    <%= f.label :telefone_contact, 'Telefone para contato' %>
+      <%= f.text_field :telefone_contact, class:'form-control' %>
+    </div>
+
+    <%= f.submit 'Salvar', class: "ls-btn" %>
+     </fieldset>
+  <% end %>
+  <br>
+</div>
